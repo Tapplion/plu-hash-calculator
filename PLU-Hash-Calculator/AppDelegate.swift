@@ -10,13 +10,13 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+        if let rootViewController = window?.rootViewController as? InitialTabBarController,
+            let storyboard = rootViewController.storyboard {
+            storyboard.configure(viewController: rootViewController)
+        }
         return true
     }
-
 }
-

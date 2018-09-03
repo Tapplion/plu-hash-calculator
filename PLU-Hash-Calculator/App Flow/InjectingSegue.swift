@@ -6,4 +6,11 @@
 //  Copyright © 2017 Pascal Kimmel. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class InjectingSegue: UIStoryboardSegue {
+    override func perform() {
+        destination.storyboard?.configure(viewController: destination)
+        super.perform()
+    }
+}

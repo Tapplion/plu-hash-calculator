@@ -9,7 +9,6 @@
 import Foundation
 
 class State {
-    
     let storageController = StorageController()
     let settingsController = SettingsController()
     let stateController: StateController

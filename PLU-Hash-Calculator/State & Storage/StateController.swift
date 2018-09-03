@@ -9,7 +9,6 @@
 import Foundation
 
 class StateController {
-    
     fileprivate let storageController: StorageController
     
     var pluHashes: [PluHash] {
@@ -25,4 +24,9 @@ class StateController {
         self.storageController = storageController
     }
     
+    func add(_ pluHash: PluHash) {
+        var tempHashes = pluHashes
+        tempHashes.append(pluHash)
+        pluHashes = tempHashes
+    }
 }

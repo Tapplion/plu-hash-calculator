@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+extension FloatingPoint {
+    var isInt: Bool {
+        return floor(self) == self
+    }
+}

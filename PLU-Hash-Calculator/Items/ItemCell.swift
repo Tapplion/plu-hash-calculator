@@ -9,16 +9,16 @@
 import UIKit
 
 class ItemCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet fileprivate weak var quantityLabel: UILabel!
+    @IBOutlet fileprivate weak var nameLabel: UILabel!
+    @IBOutlet fileprivate weak var priceLabel: UILabel!
+    @IBOutlet fileprivate weak var vatSignLabel: UILabel!
+    
+    func configureCell(forItem item: Item) {
+            
+        quantityLabel.text = item.quantity.decimalQuantity()
+        nameLabel.text = item.name
+        priceLabel.text = item.price.decimalPrice()
+        vatSignLabel.text = item.vatSign
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

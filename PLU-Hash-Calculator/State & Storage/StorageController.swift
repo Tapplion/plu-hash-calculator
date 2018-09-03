@@ -9,38 +9,37 @@
 import Foundation
 
 class StorageController {
-    
-    fileprivate let documentsDirectoryURL = FileManager.default
-        .urls(for: .documentDirectory, in: .userDomainMask)
+    fileprivate let cachesDirectoryURL = FileManager.default
+        .urls(for: .cachesDirectory, in: .userDomainMask)
         .first!
-    
-    fileprivate var pluHashesFileURL: URL {
-        return documentsDirectoryURL
-            .appendingPathComponent("PluHashes")
-            .appendingPathExtension("plist")
-    }
-    
+
     func save(_ pluHashes: [PluHash]) {
-        let pluHashesPlist = pluHashes.map { $0.plistRepresentation } as NSArray
-        pluHashesPlist.write(to: pluHashesFileURL, atomically: true)
+        let pluHashesPlist = pluHashes.map{$0.serialization} as NSArray
+        pluHashesPlist.write(to: fileUrl(for: .pluHashes), atomically: true)
     }
     
     func fetchPluHashes() -> [PluHash] {
-        guard let pluHashesPlist = NSArray(contentsOf: pluHashesFileURL) as? [[String: AnyObject]] else {
+        guard let data = NSArray(contentsOf: fileUrl(for: .pluHashes)) as? [Serialization] else {
             return loadSampleData()
         }
-        return pluHashesPlist.map(PluHash.init(plist:))
+        return data.map(PluHash.init)
     }
-    
 }
 
 fileprivate extension StorageController {
-    
     func loadSampleData() -> [PluHash] {
-        let test = Bundle.main.path(forResource: "SampleData", ofType: "plist", inDirectory: "Stage & Storage")!
-        print(test)
-        let data = NSArray(contentsOfFile: test) as! [[String: AnyObject]]
-        return data.map(PluHash.init(plist:))
+        let dataFilePath = Bundle.main.path(forResource: "SampleData", ofType: "plist")!
+        let data = NSArray(contentsOfFile: dataFilePath) as! [Serialization]
+        return data.map(PluHash.init)
     }
     
+    enum Storage: String {
+        case pluHashes
+    }
+    
+    func fileUrl(for storage: Storage) -> URL {
+        return cachesDirectoryURL
+            .appendingPathComponent(storage.rawValue)
+            .appendingPathExtension("plist")
+    }
 }

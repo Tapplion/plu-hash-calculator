@@ -7,19 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A101A82720AB833A00F21564 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101A82620AB833A00F21564 /* Float.swift */; };
+		A13D4F571F9D094500831029 /* InjectingSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F561F9D094500831029 /* InjectingSegue.swift */; };
+		A13D4F591F9F524000831029 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F581F9F524000831029 /* AddItemViewController.swift */; };
+		A13D4F5B1F9F53AE00831029 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F5A1F9F53AE00831029 /* UIViewController.swift */; };
+		A13D4F5D1F9FAB6200831029 /* ItemTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F5C1F9FAB6200831029 /* ItemTextField.swift */; };
+		A13D4F601F9FB64F00831029 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F5F1F9FB64F00831029 /* Formatting.swift */; };
+		A13D4F621F9FBB7600831029 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D4F611F9FBB7600831029 /* TextField.swift */; };
+		A150171920BDC1A6008D0EA5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A150171820BDC1A6008D0EA5 /* SettingsController.swift */; };
+		A175FCB71F9CBE88006540BB /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A175FCB61F9CBE88006540BB /* StorageController.swift */; };
+		A175FCB91F9CBE92006540BB /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A175FCB81F9CBE92006540BB /* StateController.swift */; };
+		A175FCBB1F9CC4A2006540BB /* PluHashesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A175FCBA1F9CC4A2006540BB /* PluHashesDataSource.swift */; };
+		A19E762F20A8424A00B835D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E762E20A8424A00B835D3 /* Model.swift */; };
+		A1A701001F9CC84400E39AEC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A700FF1F9CC84400E39AEC /* State.swift */; };
+		A1A701021F9CC99700E39AEC /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A701011F9CC99700E39AEC /* UIStoryboard.swift */; };
+		A1A701041F9CD24D00E39AEC /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1A701031F9CD24D00E39AEC /* SampleData.plist */; };
+		A1C970061F9CE6D50096E5E2 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C970051F9CE6D50096E5E2 /* String.swift */; };
+		A1C970081F9CE9770096E5E2 /* ItemsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C970071F9CE9770096E5E2 /* ItemsDataSource.swift */; };
+		A1C9700A1F9CEC0C0096E5E2 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C970091F9CEC0C0096E5E2 /* ItemCell.swift */; };
+		A1D0F43D20BDC74C00AC33A9 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0F43C20BDC74C00AC33A9 /* Style.swift */; };
+		A1D0F43F20BDCC7200AC33A9 /* InitialTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0F43E20BDCC7200AC33A9 /* InitialTabBarController.swift */; };
 		A1ECDF5A1F9C9D05004DC146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF591F9C9D05004DC146 /* AppDelegate.swift */; };
 		A1ECDF5F1F9C9D05004DC146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ECDF5D1F9C9D05004DC146 /* Main.storyboard */; };
 		A1ECDF611F9C9D05004DC146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ECDF601F9C9D05004DC146 /* Assets.xcassets */; };
 		A1ECDF641F9C9D05004DC146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ECDF621F9C9D05004DC146 /* LaunchScreen.storyboard */; };
+		A1ECDF6E1F9CA02C004DC146 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF6D1F9CA02C004DC146 /* Item.swift */; };
+		A1ECDF701F9CA08E004DC146 /* PluHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF6F1F9CA08E004DC146 /* PluHash.swift */; };
+		A1ECDF741F9CAD20004DC146 /* PluHashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF731F9CAD20004DC146 /* PluHashesViewController.swift */; };
+		A1ECDF761F9CAD75004DC146 /* PluHashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF751F9CAD75004DC146 /* PluHashCell.swift */; };
+		A1ECDF781F9CADD6004DC146 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECDF771F9CADD6004DC146 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A101A82620AB833A00F21564 /* Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		A13D4F561F9D094500831029 /* InjectingSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectingSegue.swift; sourceTree = "<group>"; };
+		A13D4F581F9F524000831029 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		A13D4F5A1F9F53AE00831029 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		A13D4F5C1F9FAB6200831029 /* ItemTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTextField.swift; sourceTree = "<group>"; };
+		A13D4F5E1F9FB0C800831029 /* SHA Calculator-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SHA Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		A13D4F5F1F9FB64F00831029 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		A13D4F611F9FBB7600831029 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		A150171820BDC1A6008D0EA5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		A175FCB61F9CBE88006540BB /* StorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		A175FCB81F9CBE92006540BB /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		A175FCBA1F9CC4A2006540BB /* PluHashesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluHashesDataSource.swift; sourceTree = "<group>"; };
+		A19E762E20A8424A00B835D3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A1A700FF1F9CC84400E39AEC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		A1A701011F9CC99700E39AEC /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		A1A701031F9CD24D00E39AEC /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		A1C970051F9CE6D50096E5E2 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A1C970071F9CE9770096E5E2 /* ItemsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDataSource.swift; sourceTree = "<group>"; };
+		A1C970091F9CEC0C0096E5E2 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		A1D0F43C20BDC74C00AC33A9 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		A1D0F43E20BDCC7200AC33A9 /* InitialTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTabBarController.swift; sourceTree = "<group>"; };
 		A1ECDF561F9C9D05004DC146 /* PLU-Hash-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PLU-Hash-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1ECDF591F9C9D05004DC146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1ECDF5E1F9C9D05004DC146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1ECDF601F9C9D05004DC146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1ECDF631F9C9D05004DC146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1ECDF651F9C9D05004DC146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ECDF6D1F9CA02C004DC146 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A1ECDF6F1F9CA08E004DC146 /* PluHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluHash.swift; sourceTree = "<group>"; };
+		A1ECDF731F9CAD20004DC146 /* PluHashesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluHashesViewController.swift; sourceTree = "<group>"; };
+		A1ECDF751F9CAD75004DC146 /* PluHashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluHashCell.swift; sourceTree = "<group>"; };
+		A1ECDF771F9CADD6004DC146 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +84,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1A700FE1F9CC7C100E39AEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13D4F5E1F9FB0C800831029 /* SHA Calculator-Bridging-Header.h */,
+				A1ECDF651F9C9D05004DC146 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C970041F9CE6C00096E5E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1C970051F9CE6D50096E5E2 /* String.swift */,
+				A101A82620AB833A00F21564 /* Float.swift */,
+				A13D4F611F9FBB7600831029 /* TextField.swift */,
+				A13D4F5F1F9FB64F00831029 /* Formatting.swift */,
+				A13D4F5A1F9F53AE00831029 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A1ECDF4D1F9C9D05004DC146 = {
 			isa = PBXGroup;
 			children = (
@@ -52,21 +124,74 @@
 		A1ECDF581F9C9D05004DC146 /* PLU-Hash-Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				A1ECDF6B1F9C9D5F004DC146 /* Main App Files */,
+				A1ECDF591F9C9D05004DC146 /* AppDelegate.swift */,
+				A1ECDF621F9C9D05004DC146 /* LaunchScreen.storyboard */,
+				A1ECDF601F9C9D05004DC146 /* Assets.xcassets */,
+				A1ECDF6B1F9C9D5F004DC146 /* App Flow */,
+				A1ECDF721F9CACD8004DC146 /* Items */,
+				A1ECDF711F9CACCC004DC146 /* PLU Hashes */,
+				A1ECDF6C1F9C9FE1004DC146 /* Model */,
+				A1ECDF791F9CB287004DC146 /* State & Storage */,
+				A1C970041F9CE6C00096E5E2 /* Extensions */,
+				A1A700FE1F9CC7C100E39AEC /* Supporting Files */,
 			);
 			path = "PLU-Hash-Calculator";
 			sourceTree = "<group>";
 		};
-		A1ECDF6B1F9C9D5F004DC146 /* Main App Files */ = {
+		A1ECDF6B1F9C9D5F004DC146 /* App Flow */ = {
 			isa = PBXGroup;
 			children = (
-				A1ECDF591F9C9D05004DC146 /* AppDelegate.swift */,
 				A1ECDF5D1F9C9D05004DC146 /* Main.storyboard */,
-				A1ECDF621F9C9D05004DC146 /* LaunchScreen.storyboard */,
-				A1ECDF601F9C9D05004DC146 /* Assets.xcassets */,
-				A1ECDF651F9C9D05004DC146 /* Info.plist */,
+				A1A701011F9CC99700E39AEC /* UIStoryboard.swift */,
+				A13D4F561F9D094500831029 /* InjectingSegue.swift */,
+				A1D0F43E20BDCC7200AC33A9 /* InitialTabBarController.swift */,
 			);
-			path = "Main App Files";
+			path = "App Flow";
+			sourceTree = "<group>";
+		};
+		A1ECDF6C1F9C9FE1004DC146 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A19E762E20A8424A00B835D3 /* Model.swift */,
+				A1ECDF6D1F9CA02C004DC146 /* Item.swift */,
+				A1ECDF6F1F9CA08E004DC146 /* PluHash.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1ECDF711F9CACCC004DC146 /* PLU Hashes */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECDF731F9CAD20004DC146 /* PluHashesViewController.swift */,
+				A175FCBA1F9CC4A2006540BB /* PluHashesDataSource.swift */,
+				A1ECDF751F9CAD75004DC146 /* PluHashCell.swift */,
+			);
+			path = "PLU Hashes";
+			sourceTree = "<group>";
+		};
+		A1ECDF721F9CACD8004DC146 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECDF771F9CADD6004DC146 /* ItemsViewController.swift */,
+				A13D4F581F9F524000831029 /* AddItemViewController.swift */,
+				A1C970071F9CE9770096E5E2 /* ItemsDataSource.swift */,
+				A1C970091F9CEC0C0096E5E2 /* ItemCell.swift */,
+				A13D4F5C1F9FAB6200831029 /* ItemTextField.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		A1ECDF791F9CB287004DC146 /* State & Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A1A701031F9CD24D00E39AEC /* SampleData.plist */,
+				A1A700FF1F9CC84400E39AEC /* State.swift */,
+				A175FCB81F9CBE92006540BB /* StateController.swift */,
+				A175FCB61F9CBE88006540BB /* StorageController.swift */,
+				A150171820BDC1A6008D0EA5 /* SettingsController.swift */,
+				A1D0F43C20BDC74C00AC33A9 /* Style.swift */,
+			);
+			path = "State & Storage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +221,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Pascal Kimmel";
 				TargetAttributes = {
 					A1ECDF551F9C9D05004DC146 = {
@@ -130,6 +255,7 @@
 			files = (
 				A1ECDF641F9C9D05004DC146 /* LaunchScreen.storyboard in Resources */,
 				A1ECDF611F9C9D05004DC146 /* Assets.xcassets in Resources */,
+				A1A701041F9CD24D00E39AEC /* SampleData.plist in Resources */,
 				A1ECDF5F1F9C9D05004DC146 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +267,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A101A82720AB833A00F21564 /* Float.swift in Sources */,
+				A19E762F20A8424A00B835D3 /* Model.swift in Sources */,
+				A1D0F43F20BDCC7200AC33A9 /* InitialTabBarController.swift in Sources */,
+				A1A701021F9CC99700E39AEC /* UIStoryboard.swift in Sources */,
+				A1ECDF741F9CAD20004DC146 /* PluHashesViewController.swift in Sources */,
+				A1ECDF6E1F9CA02C004DC146 /* Item.swift in Sources */,
+				A13D4F621F9FBB7600831029 /* TextField.swift in Sources */,
+				A1ECDF761F9CAD75004DC146 /* PluHashCell.swift in Sources */,
+				A1D0F43D20BDC74C00AC33A9 /* Style.swift in Sources */,
+				A1C9700A1F9CEC0C0096E5E2 /* ItemCell.swift in Sources */,
+				A13D4F571F9D094500831029 /* InjectingSegue.swift in Sources */,
+				A1A701001F9CC84400E39AEC /* State.swift in Sources */,
+				A1ECDF781F9CADD6004DC146 /* ItemsViewController.swift in Sources */,
+				A13D4F5B1F9F53AE00831029 /* UIViewController.swift in Sources */,
+				A1C970061F9CE6D50096E5E2 /* String.swift in Sources */,
 				A1ECDF5A1F9C9D05004DC146 /* AppDelegate.swift in Sources */,
+				A175FCB91F9CBE92006540BB /* StateController.swift in Sources */,
+				A13D4F5D1F9FAB6200831029 /* ItemTextField.swift in Sources */,
+				A175FCB71F9CBE88006540BB /* StorageController.swift in Sources */,
+				A13D4F601F9FB64F00831029 /* Formatting.swift in Sources */,
+				A1ECDF701F9CA08E004DC146 /* PluHash.swift in Sources */,
+				A13D4F591F9F524000831029 /* AddItemViewController.swift in Sources */,
+				A150171920BDC1A6008D0EA5 /* SettingsController.swift in Sources */,
+				A1C970081F9CE9770096E5E2 /* ItemsDataSource.swift in Sources */,
+				A175FCBB1F9CC4A2006540BB /* PluHashesDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +331,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +339,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +390,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +398,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,10 +434,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL4PN8WE8N;
-				INFOPLIST_FILE = "PLU-Hash-Calculator/Main App Files/Info.plist";
+				INFOPLIST_FILE = "PLU-Hash-Calculator/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapplion.PLU-Hash-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PLU-Hash-Calculator/Supporting Files/SHA Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,10 +451,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CL4PN8WE8N;
-				INFOPLIST_FILE = "PLU-Hash-Calculator/Main App Files/Info.plist";
+				INFOPLIST_FILE = "PLU-Hash-Calculator/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapplion.PLU-Hash-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PLU-Hash-Calculator/Supporting Files/SHA Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

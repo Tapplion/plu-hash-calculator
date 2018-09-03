@@ -9,16 +9,18 @@
 import UIKit
 
 class PluHashCell: UITableViewCell {
+    @IBOutlet fileprivate weak var pluHashLabel: UILabel!
+    @IBOutlet fileprivate weak var referenceLabel: UILabel!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var value: String? {
+        didSet {
+            pluHashLabel.text = value?.substringWith(numberOfcharacters: 8, fromThe: .right)
+        }
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    var reference: String? {
+        didSet {
+            referenceLabel.text = reference
+        }
     }
-
 }

@@ -8,28 +8,21 @@
 
 import UIKit
 
-class InitialTabBarController: UITabBarController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+class InitialTabBarController: UITabBarController, SettingsConfigurable {
+    var settingsController: SettingsController!
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        applyStyle()
     }
-    */
+}
 
+private extension InitialTabBarController {
+    func applyStyle() {
+        let attributes = [NSAttributedStringKey.foregroundColor: settingsController.scheme.titlesColor]
+        UINavigationBar.appearance().titleTextAttributes = attributes
+        UINavigationBar.appearance().barTintColor = settingsController.scheme.navBarColor
+        UINavigationBar.appearance().tintColor = settingsController.scheme.titlesColor
+        tabBar.tintColor = settingsController.scheme.navBarColor
+    }
 }
