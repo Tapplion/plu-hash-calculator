@@ -226,6 +226,7 @@
 				TargetAttributes = {
 					A1ECDF551F9C9D05004DC146 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -440,8 +441,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapplion.PLU-Hash-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PLU-Hash-Calculator/Supporting Files/SHA Calculator-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,8 +458,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapplion.PLU-Hash-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PLU-Hash-Calculator/Supporting Files/SHA Calculator-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

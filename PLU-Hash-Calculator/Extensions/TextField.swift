@@ -21,7 +21,7 @@ extension UITextField {
         }
         set {
             maxLengths[self] = newValue
-            addTarget(self, action: #selector(limitLength), for: UIControlEvents.editingChanged)
+            addTarget(self, action: #selector(limitLength), for: UIControl.Event.editingChanged)
         }
     }
     

@@ -63,7 +63,7 @@ extension ItemsDataSource: UITableViewDataSource {
         items.insert(itemToMove, at: toIndexPath.row)
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             items.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath as IndexPath], with: .fade)

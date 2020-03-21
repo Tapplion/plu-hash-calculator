@@ -19,7 +19,7 @@ class InitialTabBarController: UITabBarController, SettingsConfigurable {
 
 private extension InitialTabBarController {
     func applyStyle() {
-        let attributes = [NSAttributedStringKey.foregroundColor: settingsController.scheme.titlesColor]
+        let attributes = [NSAttributedString.Key.foregroundColor: settingsController.scheme.titlesColor]
         UINavigationBar.appearance().titleTextAttributes = attributes
         UINavigationBar.appearance().barTintColor = settingsController.scheme.navBarColor
         UINavigationBar.appearance().tintColor = settingsController.scheme.titlesColor
